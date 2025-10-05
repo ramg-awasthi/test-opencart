@@ -1,0 +1,67 @@
+# OpenCart specific
+config.php
+admin/config.php
+system/storage/cache/*
+system/storage/logs/*
+system/storage/session/*
+system/storage/download/*
+system/storage/upload/*
+system/storage/modification/*
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+/temp/
+
+# Log files
+*.log
+logs/
+error.log
+access.log
+
+# Cache files
+cache/
+*.cache
+
+# Session files
+sessions/
+*.sess
+
+# Upload directories
+uploads/
+upload/
+
+# Backup files
+*.bak
+*.backup
+*.sql
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.orig
+
+# PHP specific
+composer.lock
+vendor/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database dumps
+*.sql.gz
+*.sql.bz2
+
+# Custom modifications
+custom/
+modifications/
