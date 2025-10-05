@@ -10,7 +10,7 @@ class Home extends \Opencart\System\Engine\Controller {
 	 * @return void
 	 */
 	public function index(): void {
-		sleep(5);
+		sleep(6);
 		$this->document->setTitle($this->config->get('config_meta_title'));
 		$this->document->setDescription($this->config->get('config_meta_description'));
 		$this->document->setKeywords($this->config->get('config_meta_keyword'));
